@@ -1,0 +1,39 @@
+# ========================
+# GitIgnore para Projeto PHP
+# ========================
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Dependências do Composer
+/vendor/
+
+# Cache e arquivos temporários
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Diretórios de IDEs
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de debug
+phpunit.xml.cache
+
+# Cache do Symfony (se usar)
+/var/cache/
+/var/log/
+
+# Banco de dados local (se aplicável)
+*.sqlite
+*.sqlite3
+
+# Diretórios de build ou storage (se aplicável)
+storage/
+build/
